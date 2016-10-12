@@ -5,8 +5,7 @@ body {
 	line-height: 1.6em;
 	margin: 0px auto;
 }
-/* **************** menu right socail **************** */
-
+/* **************** Section Menus **************** */
 .navbar-nav li a {
 	font-size: 12px;
 }
@@ -26,6 +25,22 @@ body {
 	background: #FFF !important;
 }
 
+/* **************** Section Slider **************** */
 .slider {
 	margin-top: 3%;
+}
+
+/* **************** Section Posts **************** */
+.posts {
+	margin-top: 3%;
+}
+
+.item {
+	width: 100%;
+	height: auto;
+	border: 1px solid #CCC;
+
+}
+article {
+	padding-bottom: 2%;
 }

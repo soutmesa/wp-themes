@@ -1,0 +1,31 @@
+body {
+	background: #fff;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #333;
+	line-height: 1.6em;
+	margin: 0px auto;
+}
+/* **************** menu right socail **************** */
+
+.navbar-nav li a {
+	font-size: 12px;
+}
+
+.navbar-nav > li > a {
+	color: #000 !important;
+	padding-top: 5px !important; 
+	padding-bottom: 5px !important;
+}
+
+.navbar-nav > li > a:hover {
+	color: #cc6600 !important;
+}
+
+.navbar {
+	min-height: 30px !important;
+	background: #FFF !important;
+}
+
+.slider {
+	margin-top: 3%;
+}

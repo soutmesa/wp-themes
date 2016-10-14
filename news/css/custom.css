@@ -30,6 +30,10 @@ header .navbar {
 	background: #FFF !important;
 }
 
+header nav.navbar {
+	padding: 0px;	
+}
+
 header #navbar ul:first-child  li:first-child a {
 	padding-left: 0px;
 }
@@ -38,10 +42,14 @@ section#navigation > .navbar {
 	border: none;
 	background: #FFF;
 }
-
+.add-border-bottom {
+	-webkit-box-shadow:0px 1px 1px #CCC;
+	-moz-box-shadow:0px 1px 1px #CCC;
+	box-shadow:0px 1px 1px #CCC;
+}
 section#navigation #brand {
 	padding-left: 0px !important;
-	font-size: 18px;
+	font-size: 50px;
 	font-weight: bolder;
 	font-family: 'Abhaya Libre', serif;
 }
@@ -115,8 +123,8 @@ article {
 	display:none;
 }
 
-.scrollToTop i {
-	background: #333;
+.fa-arrow-circle-up {
+  	color: #CCC;
 }
 
 footer {

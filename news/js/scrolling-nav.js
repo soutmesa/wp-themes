@@ -4,9 +4,11 @@ $(window).scroll(function() {
     if ($("#navigation .navbar").offset().top > 45) {
         $("#navigation .navbar").addClass("navbar-fixed-top").addClass("top-nav-collapse");
         $("section#navigation > .navbar").addClass("add-border-bottom");
+        $('#brand').css('font-size', '20px');
     } else {
         $("#navigation .navbar").removeClass("navbar-fixed-top").removeClass("top-nav-collapse");
         $("section#navigation > .navbar").removeClass("add-border-bottom");
+        $('#brand').css('font-size', '50px');
         
     }
 });

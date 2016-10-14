@@ -54,6 +54,15 @@ section#navigation #brand {
 	font-family: 'Abhaya Libre', serif;
 }
 
+section .navbar-nav > li > a {
+	color: #000 !important;
+}
+
+section .navbar-nav > li > a:hover {
+	color: #cc6600 !important;
+}
+
+
 /* **************** Section Slider **************** */
 .slider {
 	

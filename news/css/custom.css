@@ -35,7 +35,7 @@ header #navbar ul:first-child  li:first-child a {
 }
 
 section#navigation > .navbar {
-	border: none !important;
+	border: none;
 	background: #FFF;
 }
 
@@ -113,6 +113,10 @@ article {
 	bottom: 0.2%;
 	right: 0.5%;
 	display:none;
+}
+
+.scrollToTop i {
+	background: #333;
 }
 
 footer {

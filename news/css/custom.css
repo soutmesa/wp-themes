@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+
 body {
 	background: #fff;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -6,28 +8,47 @@ body {
 	margin: 0px auto;
 }
 /* **************** Section Menus **************** */
-.navbar-nav li a {
+header #navbar {
+	padding: 0px;
+}
+header .navbar-nav li a {
 	font-size: 12px;
 }
 
-.navbar-nav > li > a {
+header .navbar-nav > li > a {
 	color: #000 !important;
 	padding-top: 5px !important; 
 	padding-bottom: 5px !important;
 }
 
-.navbar-nav > li > a:hover {
+header .navbar-nav > li > a:hover {
 	color: #cc6600 !important;
 }
 
-.navbar {
+header .navbar {
 	min-height: 30px !important;
 	background: #FFF !important;
 }
 
+header #navbar ul:first-child  li:first-child a {
+	padding-left: 0px;
+}
+
+section#navigation > .navbar {
+	border: none !important;
+	background: #FFF;
+}
+
+section#navigation #brand {
+	padding-left: 0px !important;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: 'Abhaya Libre', serif;
+}
+
 /* **************** Section Slider **************** */
 .slider {
-	margin-top: 3%;
+	
 }
 
 /* **************** Section Posts **************** */

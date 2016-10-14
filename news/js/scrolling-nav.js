@@ -1,9 +1,12 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    $("#navigation .navbar").addClass("navbar-fixed-top");
+    if ($("#navigation .navbar").offset().top > 50) {
+        $("#navigation .navbar").addClass("navbar-fixed-top");
+        $("#navigation .navbar").addClass("top-nav-collapse");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $("#navigation .navbar").removeClass("top-nav-collapse");
+        $("#navigation .navbar").removeClass("navbar-fixed-top");
     }
 });
 

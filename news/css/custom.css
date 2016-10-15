@@ -7,11 +7,25 @@ body {
 	line-height: 1.6em;
 	margin: 0px auto;
 }
-
-/* **************** Section Menus **************** */
-.add-margin-top {
-	margin-top: 20px;
+.form-search {
+	display: none;
 }
+.small {
+	font-size: 20px !important;
+	margin-left: 0px !important;
+}
+.input-search {
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: black;
+}
+.myform {
+	width: 100%;
+	height: 40px;
+}
+/* **************** Section Menus **************** */
+
 .add-to-visible {
 	display: block !important;
 }

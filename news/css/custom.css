@@ -7,9 +7,16 @@ body {
 	line-height: 1.6em;
 	margin: 0px auto;
 }
+
 /* **************** Section Menus **************** */
 .add-margin-top {
 	margin-top: 20px;
+}
+.add-to-visible {
+	display: block !important;
+}
+.add-to-disable {
+	display: none;
 }
 header #navbar {
 	padding: 0px;

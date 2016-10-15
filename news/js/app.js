@@ -13,7 +13,7 @@ $(document).ready(function(){
 		return false;
 	});
 	$('#search').click(function(){
-		$('body').append('<div class=\"container\"><div class=\"add-margin-top\"><p>search here</p></div></div>');
+		$('#form-search').slideDown("slow");
 	});
 	
 });

@@ -14,6 +14,11 @@ body {
 header #navbar {
 	padding: 0px;
 }
+header .navbar {
+	border: none;
+	border-radius: 0 !important;
+  	-moz-border-radius: 0 !important;
+}
 header .navbar-nav li a {
 	font-size: 12px;
 }

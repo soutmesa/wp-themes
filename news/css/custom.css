@@ -15,8 +15,9 @@ body {
 	margin-bottom: 0px;
 	padding-right: 15px;
 }
-#form-search .navbar-inverse .fa.fa-search {
+#form-search .navbar-inverse .fa.fa-search, #form-search .navbar-inverse .fa.fa-times {
 	padding-top: 12px !important;
+	width: 
 }
 #form-search .navbar-inverse .fa.fa-search {
 	color: #fff;
@@ -32,6 +33,7 @@ body {
 	padding: 0px;
 	background-color: #222;
 	box-shadow: none;
+	color: #FFF;
 }
 .small {
 	font-size: 20px !important;

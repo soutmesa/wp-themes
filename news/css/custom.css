@@ -10,6 +10,29 @@ body {
 .form-search {
 	display: none;
 }
+#form-search .navbar-inverse {
+	padding: 0px;
+	margin-bottom: 0px;
+	padding-right: 15px;
+}
+#form-search .navbar-inverse .fa.fa-search {
+	padding-top: 12px !important;
+}
+#form-search .navbar-inverse .fa.fa-search {
+	color: #fff;
+}
+#form-search .navbar-inverse .form-group {
+	margin: 0px;
+	padding-top: 2px;
+	background-color: #222;
+}
+#form-search .navbar-inverse input[type="text"], #form-search .navbar-inverse input[type="text"]:focus {
+	border-radius: none;
+	border: none;
+	padding: 0px;
+	background-color: #222;
+	box-shadow: none;
+}
 .small {
 	font-size: 20px !important;
 	margin-left: 0px !important;
@@ -79,6 +102,7 @@ section#navigation > .navbar {
 section#navigation #brand {
 	padding-left: 0px !important;
 	font-size: 50px;
+	color: black;
 	font-weight: bolder;
 	font-family: 'Abhaya Libre', serif;
 }

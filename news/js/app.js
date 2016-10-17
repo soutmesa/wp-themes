@@ -15,5 +15,8 @@ $(document).ready(function(){
 	$('#search').click(function(){
 		$('#form-search').slideDown("slow");
 	});
-	
+	$('.fa.fa-times').click(function(){
+		$('#form-search').slideUp("slow");
+		$('#form-search').addClass("add-to-disable");
+	});
 });

@@ -5,11 +5,13 @@ $(window).scroll(function() {
         $("#navigation .navbar").addClass("navbar-fixed-top").addClass("top-nav-collapse");
         $("section#navigation > .navbar").addClass("add-border-bottom");
         $('#brand').addClass('small');
+        $('.small-menu').hide();
 
     } else {
         $("#navigation .navbar").removeClass("navbar-fixed-top").removeClass("top-nav-collapse");
         $("section#navigation > .navbar").removeClass("add-border-bottom");
         $('#brand').removeClass('small');
+        $('.small-menu').show();
         
     }
 });

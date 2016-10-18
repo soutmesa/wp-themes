@@ -76,7 +76,7 @@ header .navbar-nav > li > a {
 	padding-bottom: 5px !important;
 }
 
-header .navbar-nav > li > a:hover {
+header .navbar-nav > li > a:hover, .fa.fa-times:hover, .fa.fa-search:hover {
 	color: #cc6600 !important;
 }
 

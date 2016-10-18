@@ -16,6 +16,7 @@ $(document).ready(function(){
 	$('#search').click(function(){
 		$('#form-search').slideToggle("500", "easeInOutCirc");
 		$(this).addClass('close-form');
+		return false;
 	});
 	$('.close-form').click(function(){
 		$('#form-search').slideToggle("500", "easeInOutCirc");

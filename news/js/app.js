@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// $('.small-menu').hide();
 	//Check to see if the window is top if not then display button
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
@@ -13,11 +14,11 @@ $(document).ready(function(){
 		return false;
 	});
 	$('#search').click(function(){
-		$('#form-search').slideDown("slow");
+		$('#form-search').slideToggle("500", "easeInOutCirc");
 		$(this).addClass('close-form');
 	});
 	$('.close-form').click(function(){
-		$('#form-search').slideUp("slow");
+		$('#form-search').slideToggle("500", "easeInOutCirc");
 		$('#form-search').addClass("add-to-disable");
 	});
 });

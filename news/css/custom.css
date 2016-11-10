@@ -7,30 +7,37 @@ body {
 	line-height: 1.6em;
 	margin: 0px auto;
 }
-
+/********* Form Search *********/
 .form-search {
 	display: none;
 }
+
 #form-search .navbar {
 	min-height: 40px;
 }
+
 #form-search .navbar-inverse {
 	padding: 0px;
 	margin-bottom: 0px;
 	padding-right: 15px;
 	border-radius: 0px;
+	background-color: #000 !important;
 }
+
 #form-search .navbar-inverse .fa.fa-search, #form-search .navbar-inverse .fa.fa-times {
 	padding-top: 11px !important;
 }
+
 #form-search .navbar-inverse .fa.fa-search {
-	color: #fff;
+	color: #FFF;
 }
+
 #form-search .navbar-inverse .form-group {
 	margin: 0px;
 	padding-top: 2px;
 	background-color: #222;
 }
+
 #form-search .navbar-inverse input[type="text"], #form-search .navbar-inverse input[type="text"]:focus {
 	border: none;
 	padding: 0px;
@@ -38,35 +45,46 @@ body {
 	box-shadow: none;
 	color: #FFF;
 }
-.small {
-	font-size: 20px !important;
-	margin-left: 0px !important;
-}
+
 #form-search {
 	width: 100%;
 	border: none;
 	background-color: black;
 }
-.myform {
-	width: 100%;
-	height: 40px;
-}
-/* **************** Section Menus **************** */
 
 .add-to-visible {
 	display: block !important;
 }
+
 .add-to-disable {
 	display: none;
 }
+
+/********* top Menus *********/
+
+
+/********* Bottom Menus *********/
+.small {
+	font-size: 20px !important;
+	margin-left: 0px !important;
+}
+
+/*.myform {
+	width: 100%;
+	height: 40px;
+}*/
+/* **************** Section Header **************** */
+
 header #navbar {
 	padding: 0px;
 }
+
 header .navbar {
 	border: none;
 	border-radius: 0 !important;
-  	-moz-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
 }
+
 header .navbar-nav li a {
 	font-size: 12px;
 }
@@ -104,6 +122,7 @@ section#navigation > .navbar {
 	box-shadow:0px 1px 1px #CCC;
 }
 section#navigation #brand {
+	margin-left: 0px !important;
 	padding-left: 0px !important;
 	font-size: 50px;
 	color: black;

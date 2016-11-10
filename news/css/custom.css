@@ -35,13 +35,13 @@ body {
 #form-search .navbar-inverse .form-group {
 	margin: 0px;
 	padding-top: 2px;
-	background-color: #222;
 }
 
 #form-search .navbar-inverse input[type="text"], #form-search .navbar-inverse input[type="text"]:focus {
+	width: 100% !important;
 	border: none;
 	padding: 0px;
-	background-color: #222;
+	background-color: #000 !important;
 	box-shadow: none;
 	color: #FFF;
 }
@@ -49,7 +49,6 @@ body {
 #form-search {
 	width: 100%;
 	border: none;
-	background-color: black;
 }
 
 .add-to-visible {
